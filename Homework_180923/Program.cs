@@ -34,6 +34,7 @@ if (num1 > num2)
 22 3 9 -> 22
 */
 
+/*
 Console.WriteLine("Input first number: ");
 int num1 = Convert.ToInt32(Console.ReadLine());
 
@@ -56,3 +57,28 @@ if (num3 > max)
 }
 
 Console.WriteLine($"{max} Максимальное число");
+*/
+
+
+
+
+/*
+Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+4 -> да
+-3 -> нет
+7 -> нет
+*/
+
+
+
+Console.WriteLine("Input number: ");
+double num = Convert.ToDouble(Console.ReadLine());
+
+if (num%2 == 0)
+{
+    Console.WriteLine($"{num} это четное число");
+}
+else
+{
+    Console.WriteLine($"{num} это не четное число");
+}
