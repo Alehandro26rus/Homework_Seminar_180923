@@ -1,0 +1,14 @@
+C:\Users\Alex\Desktop\Учеба\Lesson C# 1\Homeworks\Homework_180923\bin\Debug\net7.0\Homework_180923.exe
+C:\Users\Alex\Desktop\Учеба\Lesson C# 1\Homeworks\Homework_180923\bin\Debug\net7.0\Homework_180923.deps.json
+C:\Users\Alex\Desktop\Учеба\Lesson C# 1\Homeworks\Homework_180923\bin\Debug\net7.0\Homework_180923.runtimeconfig.json
+C:\Users\Alex\Desktop\Учеба\Lesson C# 1\Homeworks\Homework_180923\bin\Debug\net7.0\Homework_180923.dll
+C:\Users\Alex\Desktop\Учеба\Lesson C# 1\Homeworks\Homework_180923\bin\Debug\net7.0\Homework_180923.pdb
+C:\Users\Alex\Desktop\Учеба\Lesson C# 1\Homeworks\Homework_180923\obj\Debug\net7.0\Homework_180923.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alex\Desktop\Учеба\Lesson C# 1\Homeworks\Homework_180923\obj\Debug\net7.0\Homework_180923.AssemblyInfoInputs.cache
+C:\Users\Alex\Desktop\Учеба\Lesson C# 1\Homeworks\Homework_180923\obj\Debug\net7.0\Homework_180923.AssemblyInfo.cs
+C:\Users\Alex\Desktop\Учеба\Lesson C# 1\Homeworks\Homework_180923\obj\Debug\net7.0\Homework_180923.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\Учеба\Lesson C# 1\Homeworks\Homework_180923\obj\Debug\net7.0\Homework_180923.dll
+C:\Users\Alex\Desktop\Учеба\Lesson C# 1\Homeworks\Homework_180923\obj\Debug\net7.0\refint\Homework_180923.dll
+C:\Users\Alex\Desktop\Учеба\Lesson C# 1\Homeworks\Homework_180923\obj\Debug\net7.0\Homework_180923.pdb
+C:\Users\Alex\Desktop\Учеба\Lesson C# 1\Homeworks\Homework_180923\obj\Debug\net7.0\Homework_180923.genruntimeconfig.cache
+C:\Users\Alex\Desktop\Учеба\Lesson C# 1\Homeworks\Homework_180923\obj\Debug\net7.0\ref\Homework_180923.dll
