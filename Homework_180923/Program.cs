@@ -7,7 +7,7 @@ a = -9 b = -3 -> max = -3
 
 
 
-/*
+
 Console.WriteLine("Input first number: ");
 int num1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Input second number: ");
@@ -25,7 +25,7 @@ if (num1 > num2)
     {
         Console.WriteLine($"{num1} равно {num2}");
     }
-*/
+
 
 /*
 Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
@@ -91,6 +91,8 @@ else
 8 -> 2, 4, 6, 8
 */
 
+
+/*
 Console.WriteLine("Введите число N: ");
 int N = Convert.ToInt32(Console.ReadLine());
 
@@ -100,3 +102,4 @@ for (int i = 2; i <= N; i += 2)
 {
     Console.WriteLine(i);
 }
+*/
