@@ -142,16 +142,16 @@
 //     return array;
 // }
 
-// // int[] CreateUserArray (int size)
-// // {
-// //     int[] array = new int[size];
-// //     for (int i = 0; i < array.Length; i++)
-// //     {
-// //         System.Console.Write("Input element array: ");
-// //         array[i] = Convert.ToInt32(Console.ReadLine());
-// //     }
-// //     return array;
-// // }
+// int[] CreateUserArray (int size)
+// {
+//     int[] array = new int[size];
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         System.Console.Write("Input element array: ");
+//         array[i] = Convert.ToInt32(Console.ReadLine());
+//     }
+//     return array;
+// }
 
 // // System.Console.WriteLine("Input array size: ");
 // // int size = Convert.ToInt32(System.Console.ReadLine());
