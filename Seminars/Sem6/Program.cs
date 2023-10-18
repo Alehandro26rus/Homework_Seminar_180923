@@ -112,39 +112,52 @@ public class Sem6_4
 {
     public static void Main(string[] args)
     {
+        // Выводим приглашение для пользователя ввести значение N.
         Console.Write("Input N: ");
-        int N = Convert.ToInt32(Console.ReadLine());
-        int[] fibonachi = new int [N];
+        int N = Convert.ToInt32(Console.ReadLine()); // Считываем введенное пользователем значение и преобразуем его в целое число.
+
+        // Создаем массив fibonachi размером N для хранения чисел Фибоначчи.
+        int[] fibonachi = new int[N];
+
+        // Выводим информацию о текущем значении N.
         Console.Write($"Если N = {N} -> ");
+
+        // Вызываем функцию Fibonachi для вычисления чисел Фибоначчи и выводим результат.
         PrintArray(Fibonachi(fibonachi));
     }
+
+    // Функция для вычисления чисел Фибоначчи и заполнения массива fibonachi.
     public static int[] Fibonachi(int[] fibonachi)
     {
-        fibonachi[0] = 0;
-        fibonachi[1] = 1;
-        for(int i = 2; i < fibonachi.Length; i++)
+        fibonachi[0] = 0; // Первое число Фибоначчи всегда равно 0.
+        fibonachi[1] = 1; // Второе число Фибоначчи всегда равно 1.
+
+        // Заполняем массив числами Фибоначчи, начиная с третьего элемента.
+        for (int i = 2; i < fibonachi.Length; i++)
         {
-            fibonachi[i] = fibonachi[i-1]+fibonachi[i-2];
+            fibonachi[i] = fibonachi[i - 1] + fibonachi[i - 2]; // Следующее число Фибоначчи равно сумме двух предыдущих.
         }
-        return fibonachi;
+
+        return fibonachi; // Возвращаем массив чисел Фибоначчи.
     }
-     public static void PrintArray(int[] array)
+
+    // Функция для вывода массива на экран.
+    public static void PrintArray(int[] array)
     {
-        for(int i = 0; i < array.Length; i++)
+        for (int i = 0; i < array.Length; i++)
         {
             if (i == 0)
             {
-                Console.Write($"[{array[i]}, ");
+                Console.Write($"[{array[i]}, "); // Если первый элемент массива, выводим начало массива.
             }
             else if (i == array.Length - 1)
             {
-                Console.Write($"{array[i]}]");
+                Console.Write($"{array[i]}]"); // Если последний элемент массива, выводим конец массива без запятой.
             }
             else
             {
-                Console.Write($"{array[i]}, ");
+                Console.Write($"{array[i]}, "); // Выводим элемент массива с запятой.
             }
         }
     }
-    
 }
